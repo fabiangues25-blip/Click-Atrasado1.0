@@ -1,0 +1,29 @@
+{
+  "geode": "4.0.0",
+  "gd": {
+    "android": "2.2081"
+  },
+  "id": "tuusuario.clic-ajustado",
+  "name": "Clic Ajustado",
+  "version": "v0.1.0",
+  "developer": "tuusuario",
+  "description": "Retrasa y reacomoda tus clics unos frames para evitar morir.",
+  "settings": {
+    "delay-frames": {
+      "type": "int",
+      "name": "Frames de retraso máx.",
+      "default": 16,
+      "min": 0,
+      "max": 60
+    },
+    "enabled": {
+      "type": "bool",
+      "name": "Activado",
+      "default": true
+    }
+  },
+  "tags": [
+    "gameplay",
+    "utility"
+  ]
+}
